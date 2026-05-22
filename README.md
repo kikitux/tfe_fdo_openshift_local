@@ -162,11 +162,10 @@ Copy the token and enter it as the value for `cloudflare_api_token`.
 
 ```
 # General
-route53_zone        = "munnep.com"                     # Main domain for Route53
-route53_subdomain   = "tfe1"                           # Subdomain for TFE
-cert_email          = "patrick.munne@ibm.com"          # Email for certificate generation
+dns_zone        = "munnep.com"                     # Main domain for Route53
+dns_subdomain   = "tfe1"                           # Subdomain for TFE
+cert_email      = "patrick.munne@ibm.com"          # Email for certificate generation
    
-
 # Cloudflare
 cloudflare_account_id = "xxxxxx"                       # Cloudflare account ID
 cloudflare_api_token  = "xxxxxx"                       # API token for Cloudflare
